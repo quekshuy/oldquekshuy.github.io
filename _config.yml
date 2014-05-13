@@ -3,5 +3,5 @@ pygments: true
 markdown: kramdown
 title: Cogito Branch
 tagline: Time flies like an arrow, fruit flies like a banana
-description: Where I attempt as far as possible to stay on topic about engineering, technology and stuff I am working on.
+description: Where I attempt as far as possible to stay on topic about engineering, technology and stuff I am working on. Follow me on twitter @shuq
 paginate: 5
