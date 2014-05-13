@@ -1,8 +1,6 @@
 ---
 published: true
-title: Hello world
+title: First post
 layout: post
 ---
-This is a test post for my new blog. The blog is hosted on [Github Pages](http://pages.github.com/) which means the source is available at [github.com/quekshuy/quekshuy.github.io](http://github.com/quekshuy/quekshuy.github.io). Be nice. Give credit. Share, don't steal :)
-
-By the way, this blog is powered by [tinypress.co](https://tinypress.co).
+I've been looking for a tool that lets me update my github pages blog via a web interface. And it looks like I've finally found one. Hurray.
