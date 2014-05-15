@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Using the cloud for production services
 layout: post
 ---
