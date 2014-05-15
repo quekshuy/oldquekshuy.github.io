@@ -18,3 +18,7 @@ For one, the whole instance was stopped and we weren't informed. I'm pretty sure
 At a recent AWS sharing session, I questioned some local evangelists about the problem. They had not heard anyone encountering the same thing. It could also be because the people who did refused to fork out for paid support, so the issues weren't escalated. Or they could have patched the problem, thinking "oh, no harm done".
 
 So that's the slippery slope when it comes to cloud hosting.
+
+GIF of the day: 
+
+![Cat saves the day](http://imgur.com/gallery/5DJNj0U)
