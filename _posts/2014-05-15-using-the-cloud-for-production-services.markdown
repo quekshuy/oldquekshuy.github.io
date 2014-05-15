@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Using the cloud for production services
 layout: post
 ---
@@ -21,4 +21,4 @@ So that's the slippery slope when it comes to cloud hosting.
 
 GIF of the day: 
 
-![Cat saves the day](http://imgur.com/gallery/5DJNj0U)
+![Cat saves the day](http://imgur.com/gallery/5DJNj0U.gif)
