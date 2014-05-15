@@ -23,7 +23,4 @@ So here's more about why I say this (note: I'm saying this from the perspective 
 
 * __Language represents domain__
 
-Back to how I started this: you solve problems with a particular language/toolset, you've automatically been associated with the problem domain. While this is obvious, it might be an additional consideration. Java (JVM) and .NET is for the enterprise; Python and Ruby are for web startups (general computing); CMSes and e-commerce outfits still turn to PHP as their language of choice; C/C++ for embedded systems and firmware. Not surprising but if you've picked your poison and worked with one exclusively for the bulk of your career without experimenting with others, you might find switching fields a tad difficult. Unless you have built an extensive portfolio outside of your work of course.
-
-
-
+  Back to how I started this: you solve problems with a particular language/toolset, you've automatically been associated with the problem domain. While this is obvious, it might be an additional consideration. Java (JVM) and .NET is for the enterprise; Python and Ruby are for web startups (general computing); CMSes and e-commerce outfits still turn to PHP as their language of choice; C/C++ for embedded systems and firmware. Not surprising but if you've picked your poison and worked with one exclusively for the bulk of your career without experimenting with others, you might find switching fields a tad difficult. Unless you have built an extensive portfolio outside of your work of course.
