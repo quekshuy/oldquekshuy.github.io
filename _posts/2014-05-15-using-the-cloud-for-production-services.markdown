@@ -21,4 +21,4 @@ So that's the slippery slope when it comes to cloud hosting.
 
 GIF of the day: 
 
-![Cat saves the day](http://imgur.com/gallery/5DJNj0U.gif)
+![Cat saves the day](http://i.imgur.com/5DJNj0U.gif)
