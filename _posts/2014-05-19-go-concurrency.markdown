@@ -19,24 +19,24 @@ The nice thing about this project is a thorough opportunity to use goroutines an
 
   Some example code looks like this:
 
-```!go
+  ```
 
-// define
-someChan := make(chan int)
+  // define
+  someChan := make(chan int)
+  
+  // use channel
+  someChan<-data
+  someChan<-data
+  close(someChan)
 
-// use channel
-someChan<-data
-someChan<-data
-close(someChan)
+  // elsewhere
+  for d := range someChan {
+      // use d
+  }
 
-// elsewhere
-for d := range someChan {
-    // use d
-}
+  ```
 
-```
-
-1. __Concurrency, though easier, is still hard__
+2. __Concurrency, though easier, is still hard__
 
 Because _channels block by default_ (refer to point 1), it may/may not slow the program down. Also, some times the program just hangs because it's waiting on a channel.
  
