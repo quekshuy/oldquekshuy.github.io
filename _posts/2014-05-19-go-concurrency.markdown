@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Go Concurrency?
 layout: post
 ---
@@ -15,4 +15,31 @@ There are apps out there that do this already. I could easily mitm the apps to f
 
 The nice thing about this project is a thorough opportunity to use goroutines and channels for synchronization and data sharing. I picked up some stuff that I felt like documenting over here:
 
+1. __Channels are blocking by default (note to self)__
+
+  Some example code looks like this:
+
+```!go
+
+// define
+someChan := make(chan int)
+
+// use channel
+someChan<-data
+someChan<-data
+close(someChan)
+
+// elsewhere
+for d := range someChan {
+    // use d
+}
+
+```
+
 1. __Concurrency, though easier, is still hard__
+
+Because _channels block by default_ (refer to point 1), it may/may not slow the program down. Also, some times the program just hangs because it's waiting on a channel.
+ 
+
+
+I really had a lot of fun playing with scraping. I'll finish up the code soon so that it's ready to act as a library, then move on to learning about how to manage dependencies in Go.
