@@ -19,7 +19,7 @@ The nice thing about this project is a thorough opportunity to use goroutines an
 
   Some example code looks like this:
 
-  ```
+  `
 
   // define
   someChan := make(chan int)
@@ -34,7 +34,7 @@ The nice thing about this project is a thorough opportunity to use goroutines an
       // use d
   }
 
-  ```
+  `
 
 2. __Concurrency, though easier, is still hard__
 
