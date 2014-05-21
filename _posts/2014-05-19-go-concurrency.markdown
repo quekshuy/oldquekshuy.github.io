@@ -20,18 +20,18 @@ The nice thing about this project is a thorough opportunity to use goroutines an
   Some example code looks like this:
 
 
-  // define
-  someChan := make(chan int)
+    // define
+    someChan := make(chan int)
   
-  // use channel
-  someChan<-data
-  someChan<-data
-  close(someChan)
+    // use channel
+    someChan<-data
+    someChan<-data
+    close(someChan)
 
-  // elsewhere
-  for d := range someChan {
-        // use d
-  }
+    // elsewhere
+    for d := range someChan {
+          // use d
+    }
 
 
   2. __Concurrency, though easier, is still hard__
