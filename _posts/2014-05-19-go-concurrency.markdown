@@ -15,7 +15,7 @@ There are apps out there that do this already. I could easily mitm the apps to f
 
 The nice thing about this project is a thorough opportunity to use goroutines and channels for synchronization and data sharing. I picked up some stuff that I felt like documenting over here:
 
-  1. __Channels are blocking by default (note to self)__
+1. __Channels are blocking by default (note to self)__
 
   Some example code looks like this:
 
@@ -33,10 +33,9 @@ The nice thing about this project is a thorough opportunity to use goroutines an
           // use d
     }
 
+2. __Concurrency, though easier, is still hard__
 
-  2. __Concurrency, though easier, is still hard__
-
-Because _channels block by default_ (refer to point 1), it may/may not slow the program down. Also, some times the program just hangs because it's waiting on a channel.
+  Because _channels block by default_ (refer to point 1), it may/may not slow the program down. Also, some times the program just hangs because it's waiting on a channel.
  
 
 
