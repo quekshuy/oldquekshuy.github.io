@@ -10,7 +10,6 @@ RoR => [Cube](http://github.com/square/cube) => MongoDB
 Schema in MongoDB (example):
 
 ```
-!json
 
 {
   "_id": <object_id>,
@@ -23,4 +22,3 @@ Schema in MongoDB (example):
 }
 
 ```
-
