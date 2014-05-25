@@ -1,8 +1,26 @@
 ---
 published: true
-title: RoR #1: MongoDb
+title: MongoDB Lesson 1
 layout: post
 ---
-This is my post content.
+Details:
 
-Here we go.
+RoR => [Cube](http://github.com/square/cube) => MongoDB
+
+Schema in MongoDB (example):
+
+```
+!json
+
+{
+  "_id": <object_id>,
+   "t": <iso_timestamp>,
+   "d": {
+       "resource": "A",
+       "action": "create",
+       "id": <A_instance_id>
+   }
+}
+
+```
+
