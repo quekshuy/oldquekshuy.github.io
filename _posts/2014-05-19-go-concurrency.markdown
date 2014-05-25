@@ -19,11 +19,10 @@ The nice thing about this project is a thorough opportunity to use goroutines an
 
   Some example code looks like this:
 
-    ```
 
     c := make(chan int)
 
-    ```
+   
 
 * __Concurrency, though easier, is still hard__
 
