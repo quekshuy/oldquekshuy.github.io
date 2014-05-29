@@ -51,4 +51,7 @@ It returns a random element of the array.
 
 There are tons of other examples but this is the one that i recently found. It makes testing so much easier.
 
+* Closures: blocks, lambdas, Procs
+
+
 to be continued...
