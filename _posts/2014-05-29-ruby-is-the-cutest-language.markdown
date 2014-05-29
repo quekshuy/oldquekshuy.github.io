@@ -33,4 +33,22 @@ _Ruby_
 
 Look at that? A lambda-esque (it's really not a lambda there are differences in Ruby) block of code is passed to a method attached to a number. You can tell that when Ruby says everything is an object, it makes damn sure that as a beginner you see it.
 
-To be continued...
+
+* Convenience everywhere
+
+I remember when I was in high school how I thought languages like Java were polluting the world of programming. This was because I felt that the use of included libraries was rampant. I felt at the time that programming wasn't about encyclopedic knowledge of library functions; that was a sure sign of making you lazier as a programmer.
+
+Then I went to university (about 4 years after that) and realise that included libraries made the act of creation much faster. Programming was a means to an end. Included libraries were code that had been tested and proven to work, so you could concentrate on the act of creation, using the various blocks that have been prepared to make even greater things. This made me appreciate Python as a language, with almost everything baked in.
+
+Ruby is much like Python. Take for example this method built into arrays.
+
+```
+x = [1,2,3,4,5].sample
+```
+The above is from Ruby 1.9+.
+
+It returns a random element of the array.
+
+There are tons of other examples but this is the one that i recently found. It makes testing so much easier.
+
+to be continued...
