@@ -25,9 +25,7 @@ for i in xrange(5):
 _Ruby_
 
 ```
-5.times{ |i|
-  puts i
-}
+5.times{ |i|  puts i }
 
 ```
 
@@ -50,6 +48,17 @@ The above is from Ruby 1.9+.
 It returns a random element of the array.
 
 There are tons of other examples but this is the one that i recently found. It makes testing so much easier.
+
+How would i do this in Python. It seems not that hard actually but still a tad more verbose.
+
+```
+import random
+
+x = [1, 2, 3, 4, 5]
+random.choice(x)
+
+```
+
 
 * Closures: blocks, lambdas, Procs
 
