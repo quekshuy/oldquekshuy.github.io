@@ -54,7 +54,7 @@ p.s("1", "2")
 
 Ruby's method calls do not require parentheses. So if I were to do the same thing in Ruby it would be assumed that `another_s` stores the value returned by `s` (which in this case would be `nil`)
 
-```!ruby
+```
 
 class Alpha
   def s(a, b)
