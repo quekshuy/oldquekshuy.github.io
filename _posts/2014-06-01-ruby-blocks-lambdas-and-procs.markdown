@@ -18,7 +18,7 @@ Here are the references:
 
 Invoking a Proc does not check its argument list for the same number of arguments. 
 
-```!ruby
+```
 
 x = Proc.new do |a,b,c|
 puts a+b
@@ -36,7 +36,7 @@ For a lambda this will be an error, since it expects 3 arguments but is called w
 
 Look at how I assign a method to another variable in a Python class.
 
-```!python
+```
 
 class PAlpha(object):
   
@@ -77,7 +77,7 @@ Ruby doesn't allow the same kind of flexibility as Python in this case, but it d
 
 But if it were not instance methods but just functions in general, it would require use of the `method` function.
 
-```!ruby
+```
 
 def s(a,b)
    puts "#{a} + #{b}"
