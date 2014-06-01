@@ -11,7 +11,6 @@ Here are the references:
 
 [The & operator in Ruby](http://ablogaboutcode.com/2012/01/04/the-ampersand-operator-in-ruby/)
 
-===
 
 * Blocks cannot be assigned to variables, procs and lambdas can
 
