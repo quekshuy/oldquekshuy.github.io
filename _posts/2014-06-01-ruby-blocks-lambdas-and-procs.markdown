@@ -40,7 +40,7 @@ Look at how I assign a method to another variable in a Python class.
 
 class PAlpha(object):
   
-  def s(a, b):
+  def s(self, a, b):
       print a, '+', b
 
   # assignment of s to another_s
