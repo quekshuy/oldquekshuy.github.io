@@ -15,7 +15,8 @@ The problem is we believe our service has not reached the scale to adopt the add
 
 So we wish to write something small first, deploy that then move ahead with other stuff.
 
-So I wrote clarinet (private repo, so no link as of now).
+So I wrote __clarinet__ (private repo, so no link as of now).
 
 __Description__
+
 
